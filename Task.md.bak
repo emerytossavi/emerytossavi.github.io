@@ -1,0 +1,159 @@
+# Plan Concecption Portfolio Emery TOSSAVI
+
+## Structure des données du CV
+
+Ici se trouve la structure des données du CV au format JSON:
+
+```json
+
+{
+  "personalInfo": {
+    "name": "Emery TOSSAVI",
+    "title": "Développeur Fullstack & Analyste en sécurité",
+    "bio": "Spécialiste tech avec un sens du résultat, je prends en main les défis avec assurance et j'apporte des solutions concrètes qui font avancer le projet. J'aime créer un impact réel grâce à une approche claire, méthodique et orientée efficacité.",
+    "contact": {
+      "phone": "+229 01 66 66 99 23",
+      "email": "emery.tossavi@epitech.eu",
+      "linkedin": "https://linkedin.com/in/emery-tossavi",
+      "github": "https://github.com/emerytossavi"
+    }
+  },
+  "skills": {
+    "technical": [
+      "Télécommunication",
+      "Systèmes d'exploitation",
+      "Sécurité des applications",
+      "Déploiement",
+      "Gestion de projets"
+    ],
+    "soft": [
+      "Adaptation",
+      "Esprit d'équipe",
+      "Autonomie"
+    ]
+  },
+  "technologies": {
+    "languages": [
+      "PHP",
+      "Javascript",
+      "Python",
+      "SQL",
+      "C",
+      "Bash",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": [
+      "Laravel",
+      "Symfony",
+      "Flask",
+      "Django",
+      "Vue.JS",
+      "React Native",
+      "Flutter",
+      "React.JS",
+      "Next.JS",
+      "Bootstrap",
+      "Tailwind CSS"
+    ],
+    "tools": [
+      "Git",
+      "Github",
+      "Docker",
+      "Trello",
+      "Leaflet",
+      "Visual Studio Code"
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Franko",
+      "company": "Coding Academy - Epitech",
+      "period": "Août 2025 - 2026",
+      "description": "Réseau social permettant aux utilisateurs de partager leurs avis avec la communauté.",
+      "technologies": [
+        "Vue.JS",
+        "LARAVEL"
+      ]
+    },
+    {
+      "title": "Orienta+",
+      "company": null,
+      "period": "Mars - Juillet 2025",
+      "description": "Annuaire géolocalisé des universités pour l'orientation et l'inscription des nouveaux bacheliers.",
+      "technologies": [
+        "LARAVEL",
+        "Flutter",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "GASA Free Data",
+      "company": "GASA Formation",
+      "period": "Janvier - Février 2025",
+      "description": "Application de réduction des accès internet (Partenariat MTN & UATM GASA Formation).",
+      "technologies": []
+    },
+    {
+      "title": "LocalShare",
+      "company": null,
+      "period": "Septembre 2024",
+      "description": "Plateforme d'échange de fichiers dans un réseau.",
+      "technologies": []
+    },
+    {
+      "title": "AHS-ASMN",
+      "company": "DigiWeb SARL",
+      "period": "Août - Octobre 2024",
+      "description": "Inventaire géolocalisé des gestionnaires et experts du patrimoine africain.",
+      "technologies": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "Certification: Développement Web et Mobile Fullstack",
+      "institution": "Coding Academy - Epitech Bénin",
+      "period": "2025 - 2026"
+    },
+    {
+      "degree": "Certification Postman",
+      "institution": "Postman",
+      "period": "Novembre 2025"
+    },
+    {
+      "degree": "Certificat MIABE HACKATHON",
+      "institution": "MIABE HACKATHON",
+      "period": "Juillet 2025"
+    },
+    {
+      "degree": "Licence: Système Informatique et Logiciel",
+      "institution": "UATM GASA Formation - Porto-novo",
+      "period": "2022 - 2025"
+    },
+    {
+      "degree": "Attestation: Sécurité des applications web",
+      "institution": "ASIN - Bénin",
+      "period": "Juin 2024"
+    },
+    {
+      "degree": "Baccalauréat série scientifique",
+      "institution": null,
+      "period": "2021-2022"
+    }
+  ],
+  "interests": [
+    "Technologies",
+    "Lecture"
+  ],
+  "languages": [
+    "Français",
+    "Anglais"
+  ]
+}
+
+
+```
+
+## Style du portfolio
+
+Le portfolio adoptera un design moderne et épuré, avec une navigation intuitive. Les sections seront clairement délimitées, utilisant des couleurs contrastées pour une meilleure lisibilité. Des icônes et des graphiques seront intégrés pour illustrer les compétences techniques et les expériences professionnelles. Le portfolio sera également responsive, assurant une expérience optimale sur tous les appareils. 
