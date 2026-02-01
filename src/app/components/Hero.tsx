@@ -84,11 +84,11 @@ export const Hero = () => {
             <div className="absolute inset-0 border-2 border-[#ff6347] rounded -translate-x-4 -translate-y-4 group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 opacity-50"></div>
             <div className="relative rounded overflow-hidden w-full h-full bg-[#2d2d2d]">
               <img 
-                src="https://images.unsplash.com/photo-1753998943228-73470750c597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMGFmcmljYW4lMjBtYWxlJTIwZGV2ZWxvcGVyJTIwY29kaW5nJTIwZGFyayUyMGZ1dHVyaXN0aWMlMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzY5OTc2MzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
-                alt="Emery Tossavi" 
-                className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
+                src="/pics/profil/emery-tossavi.jpg" 
+                alt="Emery TOSSAVI" 
+                className="w-full h-full object-cover transition-all duration-500"
               />
-              <div className="absolute inset-0 bg-[#64ffda]/20 mix-blend-multiply hover:bg-transparent transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-[#64ffda]/10 mix-blend-multiply hover:bg-transparent transition-all duration-500"></div>
             </div>
           </div>
         </motion.div>
