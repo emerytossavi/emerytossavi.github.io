@@ -44,7 +44,7 @@ export const Navbar = () => {
             </span>
           </div>
           
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             <div className="flex items-baseline space-x-8">
               {navLinks.map((link, index) => (
                 <a
@@ -68,7 +68,7 @@ export const Navbar = () => {
             </button>
           </div>
 
-          <div className="md:hidden flex items-center gap-4">
+          <div className="lg:hidden flex items-center gap-4">
              <button
               onClick={toggleLanguage}
               className="flex items-center gap-2 px-2 py-1 rounded border border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda]/10 transition-colors font-mono text-xs"
@@ -92,7 +92,7 @@ export const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#1a1a1a] border-b border-[#2d2d2d]"
+            className="lg:hidden bg-[#1a1a1a] border-b border-[#2d2d2d]"
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navLinks.map((link, index) => (
