@@ -138,7 +138,7 @@ export const portfolioData = {
             contact: "Contact"
         },
         hero: {
-            greeting: "Hi, my name is",
+            greeting: "Hi, I'm",
             role_prefix: "I am a",
             contact_button: "Contact Me"
         },
