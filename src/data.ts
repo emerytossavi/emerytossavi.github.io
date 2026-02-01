@@ -64,35 +64,45 @@ export const portfolioData = {
         company: "Coding Academy - Epitech",
         period: "August 2025 - 2026",
         description: "Social network allowing users to share their opinions with the community.",
-        technologies: ["Vue.JS", "LARAVEL"]
+        technologies: ["Vue.JS", "LARAVEL"],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "Orienta+",
         company: null,
         period: "March - July 2025",
         description: "Geolocated directory of universities for orientation and enrollment of new high school graduates.",
-        technologies: ["LARAVEL", "Flutter", "MySQL"]
+        technologies: ["LARAVEL", "Flutter", "MySQL"],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "GASA Free Data",
         company: "GASA Formation",
         period: "January - February 2025",
         description: "Internet access reduction application (Partnership MTN & UATM GASA Formation).",
-        technologies: []
+        technologies: [],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "LocalShare",
         company: null,
         period: "September 2024",
         description: "File sharing platform within a network.",
-        technologies: []
+        technologies: [],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "AHS-ASMN",
         company: "DigiWeb SARL",
         period: "August - October 2024",
         description: "Geolocated inventory of managers and experts of African heritage.",
-        technologies: []
+        technologies: [],
+        github_link: "/#",
+        app_link: "/#"
       }
     ],
     education: [
@@ -232,35 +242,45 @@ export const portfolioData = {
         company: "Coding Academy - Epitech",
         period: "Août 2025 - 2026",
         description: "Réseau social permettant aux utilisateurs de partager leurs avis avec la communauté.",
-        technologies: ["Vue.JS", "LARAVEL"]
+        technologies: ["Vue.JS", "LARAVEL"],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "Orienta+",
         company: null,
         period: "Mars - Juillet 2025",
         description: "Annuaire géolocalisé des universités pour l'orientation et l'inscription des nouveaux bacheliers.",
-        technologies: ["LARAVEL", "Flutter", "MySQL"]
+        technologies: ["LARAVEL", "Flutter", "MySQL"],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "GASA Free Data",
         company: "GASA Formation",
         period: "Janvier - Février 2025",
         description: "Application de réduction des accès internet (Partenariat MTN & UATM GASA Formation).",
-        technologies: []
+        technologies: [],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "LocalShare",
         company: null,
         period: "Septembre 2024",
         description: "Plateforme d'échange de fichiers dans un réseau.",
-        technologies: []
+        technologies: [],
+        github_link: "/#",
+        app_link: "/#"
       },
       {
         title: "AHS-ASMN",
         company: "DigiWeb SARL",
         period: "Août - Octobre 2024",
         description: "Inventaire géolocalisé des gestionnaires et experts du patrimoine africain.",
-        technologies: []
+        technologies: [],
+        github_link: "/#",
+        app_link: "/#"
       }
     ],
     education: [

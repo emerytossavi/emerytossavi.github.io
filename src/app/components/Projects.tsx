@@ -81,20 +81,28 @@ export const Projects = () => {
               </div>
 
               <div className="grid grid-cols-2 gap-3 mt-auto pt-4 border-t border-[#233554]">
-                <a 
-                  href="#" 
-                  className="flex items-center justify-center gap-2 px-3 py-2 border border-[#64ffda] text-[#64ffda] text-xs font-mono rounded hover:bg-[#64ffda]/10 transition-colors"
-                >
-                  <Github size={14} />
-                  Code
-                </a>
-                <a 
-                  href="#" 
-                  className="flex items-center justify-center gap-2 px-3 py-2 border border-[#ff6347] text-[#ff6347] text-xs font-mono rounded hover:bg-[#ff6347]/10 transition-colors"
-                >
-                  <ExternalLink size={14} />
-                  {ui.experiences.view_project || 'Visit'}
-                </a>
+                {project.github_link && project.github_link !== "/#" && (
+                  <a 
+                    href={project.github_link} 
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center justify-center gap-2 px-3 py-2 border border-[#64ffda] text-[#64ffda] text-xs font-mono rounded hover:bg-[#64ffda]/10 transition-colors"
+                  >
+                    <Github size={14} />
+                    Code
+                  </a>
+                )}
+                {project.app_link && project.app_link !== "/#" && (
+                  <a 
+                    href={project.app_link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center justify-center gap-2 px-3 py-2 border border-[#ff6347] text-[#ff6347] text-xs font-mono rounded hover:bg-[#ff6347]/10 transition-colors"
+                  >
+                    <ExternalLink size={14} />
+                    {ui.experiences.view_project || 'Visit'}
+                  </a>
+                )}
               </div>
             </motion.div>
           ))}
