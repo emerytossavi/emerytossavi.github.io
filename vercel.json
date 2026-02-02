@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "headers": {
+        "Content-Type": "application/javascript; charset=utf-8"
+      },
+      "dest": "/assets/$1"
+    }
+  ]
+}
