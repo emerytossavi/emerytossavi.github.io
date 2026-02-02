@@ -1,45 +1,45 @@
-# 🎨 Image Optimization Guide - SEO Best Practices
+# Image Optimization Guide - SEO Best Practices
 
 > **Last Updated:** 2026-02-02  
 > **Purpose:** Track image formats and conversion commands for optimal SEO performance
 
 ---
 
-## 📁 Current Image Structure
+## Current Image Structure
 
 ### Logo Images
 **Location:** `/public/pics/logo/`
 
 | Filename | Format | Size | Dimensions | Status |
 |----------|--------|------|------------|--------|
-| `et-logo.svg` | SVG | Target: <10KB | Scalable | ⏳ **TO CREATE** |
-| `et-logo.webp` | WebP | 12KB | 500x500 | ✅ **CREATED** |
-| `et-logo.png` | PNG | 48KB | 500x500 | ✅ Exists (fallback) |
-| `et-logo-192.png` | PNG | 12KB | 192x192 | ✅ **CREATED** |
-| `et-logo-192.webp` | WebP | 4KB | 192x192 | ✅ **CREATED** |
-| `et-logo-512.png` | PNG | 40KB | 512x512 | ✅ **CREATED** |
-| `et-logo-512.webp` | WebP | 12KB | 512x512 | ✅ **CREATED** |
+| `et-logo.svg` | SVG | Target: <10KB | Scalable | **TO CREATE** |
+| `et-logo.webp` | WebP | 12KB | 500x500 | **CREATED** |
+| `et-logo.png` | PNG | 48KB | 500x500 | Exists (fallback) |
+| `et-logo-192.png` | PNG | 12KB | 192x192 | **CREATED** |
+| `et-logo-192.webp` | WebP | 4KB | 192x192 | **CREATED** |
+| `et-logo-512.png` | PNG | 40KB | 512x512 | **CREATED** |
+| `et-logo-512.webp` | WebP | 12KB | 512x512 | **CREATED** |
 
 ### Profile Images
 **Location:** `/public/pics/profil/`
 
 | Filename | Format | Size | Dimensions | Status |
 |----------|--------|------|------------|--------|
-| `emery-tossavi.avif` | AVIF | 56KB | 1200x1280 | ✅ **CREATED** |
-| `emery-tossavi.webp` | WebP | 92KB | 1200x1280 | ✅ **CREATED** |
-| `emery-tossavi.jpg` | JPEG | 112KB | 1200x1280 | ✅ Exists (fallback) |
+| `emery-tossavi.avif` | AVIF | 56KB | 1200x1280 | **CREATED** |
+| `emery-tossavi.webp` | WebP | 92KB | 1200x1280 | **CREATED** |
+| `emery-tossavi.jpg` | JPEG | 112KB | 1200x1280 | Exists (fallback) |
 
 ### Open Graph / Social Media Images
 **Location:** `/public/pics/og/`
 
 | Filename | Format | Size | Dimensions | Status |
 |----------|--------|------|------------|--------|
-| `og-image.webp` | WebP | 60KB | 1200x630 | ✅ **CREATED** |
-| `og-image.jpg` | JPEG | 36KB | 1200x630 | ✅ **CREATED** |
+| `og-image.webp` | WebP | 60KB | 1200x630 | **CREATED** |
+| `og-image.jpg` | JPEG | 36KB | 1200x630 | **CREATED** |
 
 ---
 
-## 🛠️ Conversion Commands
+## Conversion Commands
 
 ### Quick Start (Automated)
 ```bash
@@ -48,11 +48,11 @@
 ```
 
 This script will automatically:
-- ✅ Check all prerequisites
-- ✅ Convert logo to WebP and multiple sizes
-- ✅ Convert profile image to WebP and AVIF
-- ✅ Create optimized OG image (1200x630)
-- ✅ Generate summary report
+- Check all prerequisites
+- Convert logo to WebP and multiple sizes
+- Convert profile image to WebP and AVIF
+- Create optimized OG image (1200x630)
+- Generate summary report
 
 ### Prerequisites (Manual Installation)
 ```bash
@@ -131,7 +131,7 @@ cwebp -q 90 og-image.jpg -o og-image.webp
 
 ---
 
-## ✅ Verification Checklist
+## Verification Checklist
 
 ### After Conversion (Automated via Script)
 ```bash
@@ -143,12 +143,12 @@ ls -lh public/pics/**/*.{webp,avif}
 ```
 
 ### Testing
-- [ ] All images created and in correct directories ✅ **DONE**
-- [ ] File sizes meet targets (see tables above) ✅ **DONE**
-- [ ] Dimensions are correct ✅ **DONE**
+- [ ] All images created and in correct directories **DONE**
+- [ ] File sizes meet targets (see tables above) **DONE**
+- [ ] Dimensions are correct **DONE**
 - [ ] Visual quality is acceptable
-- [ ] Build project: `npm run build` ✅ **DONE**
-- [ ] Check `dist/pics/` for all images ✅ **DONE**
+- [ ] Build project: `npm run build` **DONE**
+- [ ] Check `dist/pics/` for all images **DONE**
 - [ ] Test favicon in browser
 - [ ] Validate OG tags: https://www.opengraph.xyz/
 - [ ] Test Twitter Card: https://cards-dev.twitter.com/validator
@@ -165,7 +165,7 @@ ls -lh public/pics/**/*.{png,jpg,webp,avif,svg}
 
 ---
 
-## 📊 Expected Performance Gains
+## Expected Performance Gains
 
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
@@ -178,13 +178,13 @@ ls -lh public/pics/**/*.{png,jpg,webp,avif,svg}
 
 ---
 
-## 🔄 Maintenance
+## Maintenance
 
 ### When to Update
-- ✏️ Logo redesign
-- 📸 New profile photo
-- 🎨 Branding changes
-- 🚀 New image format support (e.g., JPEG XL)
+- Logo redesign
+- New profile photo
+- Branding changes
+- New image format support (e.g., JPEG XL)
 
 ### Update Process
 1. Replace source images in `/public/pics/`
@@ -195,7 +195,7 @@ ls -lh public/pics/**/*.{png,jpg,webp,avif,svg}
 
 ---
 
-## 📚 Resources
+## Resources
 
 - [WebP Guide](https://developers.google.com/speed/webp)
 - [AVIF Format](https://jakearchibald.com/2020/avif-has-landed/)
