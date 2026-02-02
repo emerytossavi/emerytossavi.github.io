@@ -4,9 +4,16 @@
   "framework": null,
   "routes": [
     {
-      "src": "/assets/(.*)",
+      "src": "/assets/(.*\\.js)$",
       "headers": {
         "Content-Type": "application/javascript; charset=utf-8"
+      },
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/assets/(.*\\.css)$",
+      "headers": {
+        "Content-Type": "text/css; charset=utf-8"
       },
       "dest": "/assets/$1"
     }
